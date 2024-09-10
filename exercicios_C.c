@@ -1,3 +1,6 @@
+
+/* exercicio 1 */
+
 int main(void) {
     float peso, altura, imc;
     printf("Qual o peso e a altura? ");
