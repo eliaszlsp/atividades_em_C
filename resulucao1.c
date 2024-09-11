@@ -1,7 +1,10 @@
 
-/* exercicio 1 */
-
-int main(void) {
+#include <stdio.h>
+#include <math.h>
+#include <locale.h>
+int main()
+{
+    setlocale(LC_ALL, "Portuguese");
     float peso, altura, imc;
     printf("Qual o peso e a altura? ");
     scanf("%f %f", &peso, &altura);
@@ -13,5 +16,3 @@ int main(void) {
         printf("Está obesa!\n");
     return 0;
 }
-
-
