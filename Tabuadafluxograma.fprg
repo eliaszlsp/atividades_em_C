@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Atividade visu"/>
+        <attribute name="authors" value="Professor"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-11 04:15:49 "/>
+        <attribute name="created" value="UHJvZmVzc29yO0ZJTEFCQ0FEMDIyMTVYOzIwMjQtMDktMTE7IjAzOjA4OjQyICI7MzA0Mg=="/>
+        <attribute name="edited" value="UHJvZmVzc29yO0ZJTEFCQ0FEMDIyMTVYOzIwMjQtMDktMTE7IjA0OjE1OjQ5ICI7MTszMTU2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o n&#250;mero que deseja a tabuada&quot;" newline="True"/>
+            <input variable="n"/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <output expression="i&amp;&quot;x&quot;&amp;n&amp;&quot;=&quot;&amp;(i*n)" newline="True"/>
+            </for>
+            <assign variable="i" expression="1"/>
+            <output expression="&quot;Utilizando Enquanto&quot;" newline="True"/>
+            <while expression="i&lt;=10">
+                <output expression="i&amp;&quot;x&quot;&amp;n&amp;&quot;=&quot;&amp;(i*n)" newline="True"/>
+                <assign variable="i" expression="i+1"/>
+            </while>
+            <output expression="&quot;Fazendo a tabuada com o comando fa&#231;a&quot;" newline="True"/>
+            <assign variable="i" expression="1"/>
+            <do expression="i&lt;=10">
+                <output expression="i&amp;&quot;x&quot;&amp;n&amp;&quot;=&quot;&amp;(i*n)" newline="True"/>
+                <assign variable="i" expression="i+1"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>
