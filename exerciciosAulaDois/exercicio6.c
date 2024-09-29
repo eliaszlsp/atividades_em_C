@@ -4,9 +4,9 @@ int main()
 {
     int falta;
     float media;
-    printf("digite a media e nota do aluno");
+    printf("digite a falta e media do aluno");
 
-    scanf_s("%i %f", &falta, &media);
+    scanf("%i %f", &falta, &media);
 
     if (falta <= 5 && media >= 6)
     {

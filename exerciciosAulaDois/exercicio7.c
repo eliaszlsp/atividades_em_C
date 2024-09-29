@@ -8,7 +8,7 @@ int main()
     setlocale(LC_ALL, "pt_BR.UTF-8");
     printf("digite a quantidade  falta e nota do aluno");
 
-    scanf_s("%i %f", &falta, &media);
+    scanf("%i %f", &falta, &media);
 
     if (falta <= 5 && media >= 6)
     {

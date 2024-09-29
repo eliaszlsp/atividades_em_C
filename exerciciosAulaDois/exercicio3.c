@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int main()
 {
     printf("0 != 0 == %d\n", 0 != 0);
     printf("0 != 1 == %d\n", 0 != 1);
