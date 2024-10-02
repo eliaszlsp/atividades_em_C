@@ -3,7 +3,7 @@
 
 int main()
 {
-    setlocale(LC_ALL, "");
+    setlocale(LC_ALL, "pt_BR.UTF-8");
     double x;
     int n;
     double resultado = 1.0;

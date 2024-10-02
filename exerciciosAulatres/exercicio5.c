@@ -3,7 +3,7 @@
 
 int main()
 {
-    setlocale(LC_ALL, "");
+    setlocale(LC_ALL, "pt_BR.UTF-8");
     int n;
     unsigned long long resultado = 1;
 

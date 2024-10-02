@@ -10,7 +10,7 @@ void setColor(int color)
 
 int main()
 {
-    setlocale(LC_ALL, "");
+    setlocale(LC_ALL, "pt_BR.UTF-8");
     int rastroAtivo = 1;
     int cor = 1;
     char tecla;
