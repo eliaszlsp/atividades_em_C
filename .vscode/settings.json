@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.ts": "typescript",
+        "*.css": "css",
+        "*.html": "html",
+        "exercicio1.C": "cpp"
+    }
+}
